@@ -1,8 +1,8 @@
 {
-  "framework": "angular",
-  "buildCommand": "ng build",
-  "outputDirectory": "dist/portfolio-pablo",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
