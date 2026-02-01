@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import { Reveal } from './reveal';
 import { Header } from './components/header/header';
 import { Home } from './components/home/home';
 import { About } from './components/about/about';
@@ -20,10 +20,10 @@ import { Footer } from './components/footer/footer';
     Skills,
     Projects,
     Contact,
-    Footer
+    Footer,
+    Reveal
   ],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  templateUrl: './app.html'
 })
 export class App {
   protected readonly title = signal('portfolio-pablo');
