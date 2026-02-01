@@ -1,59 +1,115 @@
-# PortfolioPablo
+# 🚀 PortfolioPablo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
+Portfólio profissional desenvolvido em **Angular (v21)** com o objetivo de apresentar meus projetos, habilidades e experiência como desenvolvedor **Full Stack**, com foco em **Angular, C# e ASP.NET**.
 
-## Development server
+Este site funciona como uma **one-page application**, com navegação simples e design minimalista.
 
-To start a local development server, run:
+---
+
+## 🧑‍💻 Sobre o projeto
+
+O **PortfolioPablo** foi criado para:
+- Apresentar projetos reais desenvolvidos por mim
+- Demonstrar conhecimentos em Angular moderno (standalone components)
+- Servir como cartão de visitas profissional para recrutadores e empresas
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **Angular 21**
+- **TypeScript**
+- **HTML5**
+- **CSS3**
+- **Angular CLI**
+- **Git & GitHub**
+
+---
+
+## ▶️ Servidor de desenvolvimento
+
+Para iniciar o servidor local:
 
 ```bash
 ng serve
-```
+````
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Depois, acesse no navegador:
 
-## Code scaffolding
+http://localhost:4200/
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+A aplicação será recarregada automaticamente sempre que houver alterações no código.
 
-```bash
-ng generate component component-name
-```
+🧱 Estrutura do projeto
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+O projeto utiliza a arquitetura moderna do Angular (standalone):
 
-```bash
-ng generate --help
-```
+src/
+ ├── index.html
+ ├── main.ts
+ └── app/
+     ├── app.component.ts
+     ├── app.component.html
+     ├── app.component.css
+     └── components/
+         ├── header/
+         ├── home/
+         ├── about/
+         ├── skills/
+         ├── projects/
+         ├── contact/
+         └── footer/
 
-## Building
+⚙️ Geração de componentes
 
-To build the project run:
+Para criar novos componentes:
 
-```bash
+ng generate component nome-do-componente
+
+
+O Angular CLI já gera os componentes como standalone, seguindo o padrão mais recente do framework.
+
+🏗️ Build para produção
+
+Para gerar o build do projeto:
+
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+Os arquivos finais serão gerados na pasta:
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+dist/
 
-```bash
+
+O build de produção é otimizado para melhor desempenho e carregamento.
+
+🧪 Testes
+Testes unitários
 ng test
-```
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+Os testes utilizam o Vitest como test runner.
 
-```bash
+Testes end-to-end
 ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
+O Angular CLI não inclui um framework de e2e por padrão. É possível configurar ferramentas como Cypress ou Playwright.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+🌐 Deploy
+
+O projeto pode ser publicado facilmente utilizando:
+
+GitHub Pages
+
+Vercel
+
+Netlify
+
+📎 Links
+
+📌 Autor
+
+Pablo Henrique
+Desenvolvedor Full Stack
+Angular • C# • ASP.NET
