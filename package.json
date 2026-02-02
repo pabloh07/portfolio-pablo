@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --base-href /portfolio-pablo/ && copy dist\\portfolio-pablo\\browser\\index.html dist\\portfolio-pablo\\browser\\404.html && npx angular-cli-ghpages --dir=dist/portfolio-pablo/browser"
   },
   "prettier": {
     "printWidth": 100,
