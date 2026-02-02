@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "public": true,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/browser/index.html" }
+    { "source": "/(index.html)?", "destination": "/browser/index.html" },
+    { "source": "/(.*)", "destination": "/browser/$1" }
   ]
 }
